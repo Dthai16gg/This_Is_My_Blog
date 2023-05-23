@@ -16,8 +16,8 @@ namespace API.Controllers
     private readonly DbContextBlog _context = new DbContextBlog();
     public AdsController()
     {
-      var reponstories = new Reponstories<Ad>(_context, _context.Ad);
-      this._IReponstories = reponstories;
+      var reponsitories = new Reponstories<Ad>(_context, _context.Ad);
+      this._IReponstories = reponsitories;
     }
     //create
     [HttpPost("create-ad")]

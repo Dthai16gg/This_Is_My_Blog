@@ -1,4 +1,4 @@
-﻿namespace DATA.Models; 
+﻿namespace DATA.Models;
 
 public class Ad
 {

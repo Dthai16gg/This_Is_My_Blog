@@ -17,10 +17,11 @@ public class User
     public string Password { get; set; }
 
     public DateTime RegistrationDate { get; set; }
-    [ForeignKey("RoleType")]
-    public virtual Role Roles { get; set; }
 
     public Guid RoleId { get; set; }
+
+    [ForeignKey("RoleType")]
+    public virtual Role Roles { get; set; }
 
     public int Status { get; set; }
 

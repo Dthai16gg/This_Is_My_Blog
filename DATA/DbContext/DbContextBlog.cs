@@ -35,7 +35,7 @@ public class DbContextBlog : DbContext
 
     public DbSet<Role> Role { get; set; }
 
-    public DbSet<Subscriber> Subscriber{ get; set; }
+    public DbSet<Subscriber> Subscriber { get; set; }
 
     public DbSet<Subscription> Subscription { get; set; }
 
