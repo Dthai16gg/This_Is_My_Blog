@@ -19,9 +19,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IReponstories\" />
-    <Folder Include="Reponstories\" />
-  </ItemGroup>
-
 </Project>
